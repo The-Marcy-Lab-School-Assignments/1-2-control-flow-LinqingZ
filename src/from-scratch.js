@@ -42,6 +42,34 @@ const happyBirthdayPet = (breed, age) => {
   else {
     console.log('Happy birthday!');
   }
+  // switch (breed) {
+  //   case 'snake':
+  //     console.log('Hiss hiss!');
+  //     break;
+  //   case 'cat':
+  //     switch (true) {
+  //       case age < 5:
+  //         console.log('Mew mew!');
+  //         break;
+  //       default:
+  //         console.log('Meow meow!');
+  //     }
+  //     break;
+  //   case 'dog':
+  //     switch (true) {
+  //       case age < 5:
+  //         console.log('Arf arf!');
+  //         break;
+  //       case age < 10:
+  //         console.log('Woof woof!');
+  //         break;
+  //       default:
+  //         console.log('Boof!');
+  //     }
+  //     break;
+  //   default:
+  //     console.log('Happy birthday!');
+  // }
 };
 
 const funTypes = (jsType) => {
@@ -73,6 +101,40 @@ const funTypes = (jsType) => {
     }
   }
 };
+// const funTypes = (jsType) => {
+//   switch (typeof jsType) {
+//     case 'string':
+//       console.log("That's just some text.");
+//       break;
+//     case 'number':
+//       switch (true) {
+//         case Number.isNaN(jsType):
+//           console.log("Well, now you're just showing off.");
+//           break;
+//         default:
+//           console.log("That's a good number.");
+//       }
+//       break;
+//     case 'boolean':
+//       console.log("To bool, or not to bool?");
+//       break;
+//     case 'undefined':
+//       console.log("Nothing, but I didn't set that.");
+//       break;
+//     case 'object':
+//       switch (true) {
+//         case jsType === null:
+//           console.log("Nothing, and I did set that.");
+//           break;
+//         case Array.isArray(jsType):
+//           console.log("I order you to be indexed.");
+//           break;
+//         default:
+//           console.log("Anybody got the key?");
+//       }
+//       break;
+//     }
+// };
 
 const rounder = (float, roundingSetting) => {
   if (roundingSetting === "up"){
